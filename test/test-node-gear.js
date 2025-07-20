@@ -13,7 +13,7 @@ const humanConfig = {
   backend: 'tensorflow',
   debug: false,
   cacheSensitivity: 0,
-  modelBasePath: 'https://vladmandic.github.io/human-models/models/',
+  modelBasePath: '/human-models/models/',
   face: {
     detector: { enabled: true, modelPath: 'blazeface-back.json' },
     mesh: { enabled: true },

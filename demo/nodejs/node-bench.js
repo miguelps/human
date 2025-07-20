@@ -9,7 +9,7 @@ const canvas = require('canvas'); // eslint-disable-line node/no-unpublished-req
 const config = {
   cacheSensitivity: 0,
   wasmPlatformFetch: true,
-  modelBasePath: 'https://vladmandic.github.io/human-models/models/',
+  modelBasePath: '/human-models/models/',
 };
 const count = 10;
 

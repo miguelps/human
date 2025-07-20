@@ -10,7 +10,7 @@
 import * as H from '../../dist/human.esm.js'; // equivalent of @vladmandic/Human
 
 const humanConfig = { // user configuration for human, used to fine-tune behavior
-  modelBasePath: 'https://vladmandic.github.io/human-models/models/',
+  modelBasePath: '/human-models/models/',
   filter: { enabled: true, equalization: false, flip: false },
   face: { enabled: false },
   body: { enabled: false },

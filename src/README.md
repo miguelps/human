@@ -7,4 +7,4 @@ Source code of the `Human` library
 - Extracted API specification is present in `/typedoc`
 
 [**Build Process**](https://github.com/vladmandic/human/wiki/Build-Process)  
-[**TypeDoc API Specification**](https://vladmandic.github.io/human/typedoc/classes/Human.html)  
+[**TypeDoc API Specification**](/human/typedoc/classes/Human.html)  

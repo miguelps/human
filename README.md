@@ -48,9 +48,9 @@
 - [NPM Link](https://www.npmjs.com/package/@vladmandic/human)
 ## Demos
 
-*Check out [**Simple Live Demo**](https://vladmandic.github.io/human/demo/typescript/index.html) fully annotated app as a good start starting point ([html](https://github.com/vladmandic/human/blob/main/demo/typescript/index.html))([code](https://github.com/vladmandic/human/blob/main/demo/typescript/index.ts))*  
+*Check out [**Simple Live Demo**](/human/demo/typescript/index.html) fully annotated app as a good start starting point ([html](https://github.com/vladmandic/human/blob/main/demo/typescript/index.html))([code](https://github.com/vladmandic/human/blob/main/demo/typescript/index.ts))*  
 
-*Check out [**Main Live Demo**](https://vladmandic.github.io/human/demo/index.html) app for advanced processing of of webcam, video stream or images static images with all possible tunable options*  
+*Check out [**Main Live Demo**](/human/demo/index.html) app for advanced processing of of webcam, video stream or images static images with all possible tunable options*  
 
 - To start video detection, simply press *Play*  
 - To process images, simply drag & drop in your Browser window  
@@ -61,24 +61,24 @@
 
 
 - [**List of all Demo applications**](https://github.com/vladmandic/human/wiki/Demos)
-- [**Live Examples galery**](https://vladmandic.github.io/human/samples/index.html)
+- [**Live Examples galery**](/human/samples/index.html)
 
 ### Browser Demos
 
 *All browser demos are self-contained without any external dependencies*
 
-- **Full** [[*Live*]](https://vladmandic.github.io/human/demo/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo): Main browser demo app that showcases all Human capabilities
-- **Simple** [[*Live*]](https://vladmandic.github.io/human/demo/typescript/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo/typescript): Simple demo in WebCam processing demo in TypeScript
-- **Embedded** [[*Live*]](https://vladmandic.github.io/human/demo/video/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo/video/index.html): Even simpler demo with tiny code embedded in HTML file
-- **Face Detect** [[*Live*]](https://vladmandic.github.io/human/demo/facedetect/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo/facedetect): Extract faces from images and processes details
-- **Face Match** [[*Live*]](https://vladmandic.github.io/human/demo/facematch/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo/facematch): Extract faces from images, calculates face descriptors and similarities and matches them to known database
-- **Face ID** [[*Live*]](https://vladmandic.github.io/human/demo/faceid/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo/faceid): Runs multiple checks to validate webcam input before performing face match to faces in IndexDB
-- **Multi-thread** [[*Live*]](https://vladmandic.github.io/human/demo/multithread/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo/multithread): Runs each Human module in a separate web worker for highest possible performance  
-- **NextJS** [[*Live*]](https://vladmandic.github.io/human-next/out/index.html) [[*Details*]](https://github.com/vladmandic/human-next): Use Human with TypeScript, NextJS and ReactJS
+- **Full** [[*Live*]](/human/demo/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo): Main browser demo app that showcases all Human capabilities
+- **Simple** [[*Live*]](/human/demo/typescript/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo/typescript): Simple demo in WebCam processing demo in TypeScript
+- **Embedded** [[*Live*]](/human/demo/video/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo/video/index.html): Even simpler demo with tiny code embedded in HTML file
+- **Face Detect** [[*Live*]](/human/demo/facedetect/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo/facedetect): Extract faces from images and processes details
+- **Face Match** [[*Live*]](/human/demo/facematch/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo/facematch): Extract faces from images, calculates face descriptors and similarities and matches them to known database
+- **Face ID** [[*Live*]](/human/demo/faceid/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo/faceid): Runs multiple checks to validate webcam input before performing face match to faces in IndexDB
+- **Multi-thread** [[*Live*]](/human/demo/multithread/index.html) [[*Details*]](https://github.com/vladmandic/human/tree/main/demo/multithread): Runs each Human module in a separate web worker for highest possible performance  
+- **NextJS** [[*Live*]](/human-next/out/index.html) [[*Details*]](https://github.com/vladmandic/human-next): Use Human with TypeScript, NextJS and ReactJS
 - **ElectronJS** [[*Details*]](https://github.com/vladmandic/human-electron): Use Human with TypeScript and ElectonJS to create standalone cross-platform apps
-- **3D Analysis with BabylonJS** [[*Live*]](https://vladmandic.github.io/human-motion/src/index.html) [[*Details*]](https://github.com/vladmandic/human-motion): 3D tracking and visualization of heead, face, eye, body and hand
-- **VRM Virtual Model Tracking with Three.JS** [[*Live*]](https://vladmandic.github.io/human-three-vrm/src/human-vrm.html) [[*Details*]](https://github.com/vladmandic/human-three-vrm): VR model with head, face, eye, body and hand tracking  
-- **VRM Virtual Model Tracking with BabylonJS** [[*Live*]](https://vladmandic.github.io/human-bjs-vrm/src/index.html) [[*Details*]](https://github.com/vladmandic/human-bjs-vrm): VR model with head, face, eye, body and hand tracking  
+- **3D Analysis with BabylonJS** [[*Live*]](/human-motion/src/index.html) [[*Details*]](https://github.com/vladmandic/human-motion): 3D tracking and visualization of heead, face, eye, body and hand
+- **VRM Virtual Model Tracking with Three.JS** [[*Live*]](/human-three-vrm/src/human-vrm.html) [[*Details*]](https://github.com/vladmandic/human-three-vrm): VR model with head, face, eye, body and hand tracking  
+- **VRM Virtual Model Tracking with BabylonJS** [[*Live*]](/human-bjs-vrm/src/index.html) [[*Details*]](https://github.com/vladmandic/human-bjs-vrm): VR model with head, face, eye, body and hand tracking  
 
 ### NodeJS Demos
 
@@ -100,8 +100,8 @@
 - [**Code Repository**](https://github.com/vladmandic/human)
 - [**NPM Package**](https://www.npmjs.com/package/@vladmandic/human)
 - [**Issues Tracker**](https://github.com/vladmandic/human/issues)
-- [**TypeDoc API Specification - Main class**](https://vladmandic.github.io/human/typedoc/classes/Human.html)
-- [**TypeDoc API Specification - Full**](https://vladmandic.github.io/human/typedoc/)
+- [**TypeDoc API Specification - Main class**](/human/typedoc/classes/Human.html)
+- [**TypeDoc API Specification - Full**](/human/typedoc/)
 - [**Change Log**](https://github.com/vladmandic/human/blob/main/CHANGELOG.md)
 - [**Current To-do List**](https://github.com/vladmandic/human/blob/main/TODO.md)
 
@@ -146,7 +146,7 @@
 
 ## App Examples
 
-Visit [Examples gallery](https://vladmandic.github.io/human/samples/index.html) for more examples  
+Visit [Examples gallery](/human/samples/index.html) for more examples  
 [<img src="assets/samples.jpg" width="640"/>](assets/samples.jpg)
 
 <br>
@@ -392,8 +392,8 @@ Additionally, `HTMLVideoElement`, `HTMLMediaElement` can be a standard `<video>`
 
 - [**Wiki Home**](https://github.com/vladmandic/human/wiki)
 - [**List of all available methods, properies and namespaces**](https://github.com/vladmandic/human/wiki/Usage)
-- [**TypeDoc API Specification - Main class**](https://vladmandic.github.io/human/typedoc/classes/Human.html)
-- [**TypeDoc API Specification - Full**](https://vladmandic.github.io/human/typedoc/)
+- [**TypeDoc API Specification - Main class**](/human/typedoc/classes/Human.html)
+- [**TypeDoc API Specification - Full**](/human/typedoc/)
 
     ![typedoc](assets/screenshot-typedoc.png)
 
@@ -451,7 +451,7 @@ Build target for distributables is `JavaScript` [EMCAScript version 2018](https:
 <br>
 
 For details see [**Wiki Pages**](https://github.com/vladmandic/human/wiki)  
-and [**API Specification**](https://vladmandic.github.io/human/typedoc/classes/Human.html)
+and [**API Specification**](/human/typedoc/classes/Human.html)
 
 <br>
 

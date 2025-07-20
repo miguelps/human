@@ -7,4 +7,4 @@ Samples were generated using command:
 
 > node demo/nodejs/process-folder.js samples/in/ samples/out/
 
-Samples galery viewer: <https://vladmandic.github.io/human/samples/samples.html>
+Samples galery viewer: </human/samples/samples.html>

@@ -35,7 +35,7 @@
   "bugs": {
     "url": "https://github.com/vladmandic/human/issues"
   },
-  "homepage": "https://vladmandic.github.io/human/demo/index.html",
+  "homepage": "/human/demo/index.html",
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"

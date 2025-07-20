@@ -12,7 +12,7 @@ const tf = require('@tensorflow/tfjs-node'); // eslint-disable-line node/no-unpu
 const Human = require('../../dist/human.node.js'); // use this when using human in dev mode
 
 const humanConfig = {
-  modelBasePath: 'https://vladmandic.github.io/human/models/',
+  modelBasePath: '/human/models/',
 };
 
 async function main(inputFile) {

@@ -135,7 +135,7 @@ export class Human {
   constructor(userConfig?: Partial<Config>) {
     /*
     defaults.wasmPath = tf.version['tfjs-core'].includes('-') // custom build or official build
-      ? 'https://vladmandic.github.io/tfjs/dist/'
+      ? '/tfjs/dist/'
       : `https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm@${tf.version_core}/dist/`;
     */
     const tfVersion = (tf.version.tfjs || tf.version_core).replace(/-(.*)/, '');

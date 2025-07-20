@@ -378,7 +378,7 @@ async function test(Human, inputConfig) {
   if (!res || res.object?.length < 1 || res.object[0]?.label !== 'person') log('error', 'failed: centernet', res.object);
   else log('state', 'passed: centernet');
   human.models.models.centernet = null;
-  config.object = { enabled: true, modelPath: 'https://vladmandic.github.io/human-models/models/nanodet.json' };
+  config.object = { enabled: true, modelPath: '/human-models/models/nanodet.json' };
   res = await testDetect(human, 'samples/in/ai-body.jpg', 'object');
   if (!res || res.object?.length < 1 || res.object[0]?.label !== 'person') log('error', 'failed: nanodet', res.object);
   else log('state', 'passed: nanodet');
@@ -420,22 +420,22 @@ async function test(Human, inputConfig) {
   config.async = false;
   config.cacheSensitivity = 0;
 
-  config.body = { enabled: true, modelPath: 'https://vladmandic.github.io/human-models/models/blazepose-heavy.json' };
+  config.body = { enabled: true, modelPath: '/human-models/models/blazepose-heavy.json' };
   res = await testDetect(human, 'samples/in/ai-body.jpg', 'blazepose');
   if (!res || !res.body || !res.body[0] || res.body[0].score < 0.9 || res.body[0].keypoints?.length !== 39) log('error', 'failed: blazepose', { body: res.body?.[0] });
   else log('state', 'passed: blazepose');
 
-  config.body = { enabled: true, modelPath: 'https://vladmandic.github.io/human-models/models/efficientpose.json' };
+  config.body = { enabled: true, modelPath: '/human-models/models/efficientpose.json' };
   res = await testDetect(human, 'samples/in/ai-body.jpg', 'efficientpose');
   if (!res || !res.body || !res.body[0] || res.body[0].score < 0.7 || res.body[0].keypoints?.length !== 13) log('error', 'failed: efficientpose', { body: res.body?.[0] });
   else log('state', 'passed: efficientpose');
 
-  config.body = { enabled: true, modelPath: 'https://vladmandic.github.io/human-models/models/posenet.json' };
+  config.body = { enabled: true, modelPath: '/human-models/models/posenet.json' };
   res = await testDetect(human, 'samples/in/ai-body.jpg', 'posenet');
   if (!res || !res.body || !res.body[0] || res.body[0].score < 0.9 || res.body[0].keypoints?.length !== 16) log('error', 'failed: posenet', { body: res.body?.[0] });
   else log('state', 'passed: posenet');
 
-  config.body = { enabled: true, modelPath: 'https://vladmandic.github.io/human-models/models/movenet-lightning.json' };
+  config.body = { enabled: true, modelPath: '/human-models/models/movenet-lightning.json' };
   res = await testDetect(human, 'samples/in/ai-body.jpg', 'movenet');
   if (!res || !res.body || !res.body[0] || res.body[0].score < 0.9 || res.body[0].keypoints?.length !== 17) log('error', 'failed: movenet', { body: res.body?.[0] });
   else log('state', 'passed: movenet');
@@ -457,11 +457,11 @@ async function test(Human, inputConfig) {
   human.reset();
   config.async = false;
   config.cacheSensitivity = 0;
-  config.face.mobilefacenet = { enabled: true, modelPath: 'https://vladmandic.github.io/human-models/models/mobilefacenet.json' };
+  config.face.mobilefacenet = { enabled: true, modelPath: '/human-models/models/mobilefacenet.json' };
   res = await testDetect(human, 'samples/in/ai-face.jpg', 'face embeddings');
   if (!res || !res.face || !res.face[0] || res.face[0].embedding?.length !== 192) log('error', 'failed: mobilefacenet', { embedding: res.face?.[0]?.embedding?.length });
   else log('state', 'passed: mobilefacenet', { embedding: res.face?.[0]?.embedding?.length });
-  config.face.insightface = { enabled: true, modelPath: 'https://vladmandic.github.io/insightface/models/insightface-mobilenet-swish.json' };
+  config.face.insightface = { enabled: true, modelPath: '/insightface/models/insightface-mobilenet-swish.json' };
   res = await testDetect(human, 'samples/in/ai-face.jpg', 'face embeddings');
   if (!res || !res.face || !res.face[0] || res.face[0]?.embedding?.length !== 512) log('error', 'failed: insightface', { embedding: res.face?.[0]?.embedding?.length });
   else log('state', 'passed: insightface', { embedding: res.face?.[0]?.embedding?.length });
@@ -474,7 +474,7 @@ async function test(Human, inputConfig) {
   log('info', 'test face attention');
   human.models.models.facemesh = null;
   config.softwareKernels = true;
-  config.face.attention = { enabled: true, modelPath: 'https://vladmandic.github.io/human-models/models/facemesh-attention.json' };
+  config.face.attention = { enabled: true, modelPath: '/human-models/models/facemesh-attention.json' };
   res = await testDetect(human, 'samples/in/ai-face.jpg', 'face attention');
   if (!res || !res.face[0] || res.face[0].mesh.length !== 478 || Object.keys(res.face[0].annotations).length !== 36) log('error', 'failed: face attention', { mesh: res.face?.[0]?.mesh?.length, annotations: Object.keys(res.face?.[0]?.annotations | {}).length });
   else log('state', 'passed: face attention');
@@ -529,7 +529,7 @@ async function test(Human, inputConfig) {
   else log('state', 'passed: monkey patch');
 
   // test segmentation
-  config.segmentation = { enabled: true, modelPath: 'https://vladmandic.github.io/human-models/models/rvm.json' };
+  config.segmentation = { enabled: true, modelPath: '/human-models/models/rvm.json' };
   res = await human.segmentation(inputCanvas, config);
   if (res?.shape?.length !== 3) log('error', 'failed: segmentation');
   else log('state', 'passed: segmentation', [res.size]);

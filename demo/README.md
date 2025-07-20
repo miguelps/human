@@ -55,9 +55,9 @@ Demo implements several ways to use `Human` library,
 Demo app can use URL parameters to override configuration values  
 For example:
 
-- Force using `WASM` as backend: <https://vladmandic.github.io/human/demo/index.html?backend=wasm>
-- Enable `WebWorkers`: <https://vladmandic.github.io/human/demo/index.html?worker=true>
-- Skip pre-loading and warming up: <https://vladmandic.github.io/human/demo/index.html?preload=false&warmup=false>
+- Force using `WASM` as backend: </human/demo/index.html?backend=wasm>
+- Enable `WebWorkers`: </human/demo/index.html?worker=true>
+- Skip pre-loading and warming up: </human/demo/index.html?preload=false&warmup=false>
 
 ### WebRTC
 

@@ -7,7 +7,7 @@ const models = ['emotion.json', 'gear-e1.json', 'gear-e2.json', 'affectnet-mobil
 const humanConfig = {
   debug: false,
   cacheSensitivity: 0,
-  modelBasePath: 'https://vladmandic.github.io/human-models/models/',
+  modelBasePath: '/human-models/models/',
   face: {
     scale: 1.4,
     detector: { enabled: true, maxDetected: 1, minSize: 256 },

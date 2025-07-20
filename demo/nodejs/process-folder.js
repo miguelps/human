@@ -25,7 +25,7 @@ const config = { // just enable all and leave default settings
   object: { enabled: true, maxDetected: 100, minConfidence: 0.1 },
   gesture: { enabled: true },
   hand: { enabled: true, maxDetected: 100, minConfidence: 0.2 },
-  body: { enabled: true, maxDetected: 100, minConfidence: 0.1, modelPath: 'https://vladmandic.github.io/human-models/models/movenet-multipose.json' },
+  body: { enabled: true, maxDetected: 100, minConfidence: 0.1, modelPath: '/human-models/models/movenet-multipose.json' },
 };
 
 const poolSize = 4;
